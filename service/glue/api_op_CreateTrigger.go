@@ -58,7 +58,7 @@ type CreateTriggerInput struct {
 	// 12 * * ? *). This field is required when the trigger type is SCHEDULED.
 	Schedule *string
 
-	// Set to true to start SCHEDULED and CONDITIONAL triggers when created. True is
+	// Set to true to activate SCHEDULED and CONDITIONAL triggers when created. True is
 	// not supported for ON_DEMAND triggers.
 	StartOnCreation bool
 
